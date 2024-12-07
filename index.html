@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KOSI AUTO</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+   <header>
+        <img src="img/garagegros_logo.webp" width="200px" alt="">
+        <nav>
+            <ul>
+                <li>
+                    <a href="#SUV">SUV</a>
+                </li>
+                <li>
+                    <a href="#SUV">4x4</a>
+                </li>
+                <li>
+                    <a href="#SUV">Berline</a>
+                </li>
+                <li>
+                    <a href="">A propos</a>
+                </li>
+                <li>
+                    <a href="#version">Programmer un rendez-vous</a>
+                </li>
+                <li>
+                    <a href="">Nous Contacter</a>
+                </li>
+            </ul>
+        </nav>
+   </header> 
+
+   <div class="version" id="version">
+        <div class="v1">
+            <img src="img/picto-vehicle.svg" width="75px" alt="">
+            <p><strong>Un large choix de véhicule</strong> <br> Notre réseau d’agences vous propose un stock permanent de + de 500 voitures 0km et occasion</p>
+        </div>
+
+        <div class="v2">
+            <img src="img/picto-satisfaction.svg" width="75px" alt="">
+            <p><strong>+ de 20.000 clients satisfaits</strong> <br> Notre motivation : votre satisfaction ! C’est pourquoi nous améliorons constamment notre expérience client depuis 1965.</p>
+        </div>
+
+         <div class="v3">
+            <img src="img/picto-save-money.svg" width="75px" alt="">
+            <p><strong>Des économies directes</strong> <br> Nos véhicules 0KM sont en moyenne 20% moins cher qu’en concession.</p>
+        </div>
+    </div>
+
+    <div class="affaire">
+        <div class="entretien">
+            <h4>Entretien</h4>
+            <p>Nous reprenons votre ancien véhicule après analyse et estimationen 48h dans nos agences</p>
+        </div>
+        <div class="financement">
+            <h4>Financement</h4>
+            <p>Crédit, LOA. Notre département financement vous accompagne pour l'achat de votre futur véhicule...</p>
+        </div>
+        <div class="atelier">
+            <h4>Atelier</h4>
+            <p>Révision, Mécanique et carrosserie. Nos collaborateurs prennent soin de votre véhicule dans notre atelier</p>
+        </div>
+        <div class="achats">
+            <h4>Des achats garantis</h4>
+            <p>Votre véhicule est garanti au minima 12 mois lorsque vous achetez chez Garage Gros, alors soyez tranquille</p>
+        </div>
+    </div>
+    <h1 id="SUV">NOS VOITURES</h1>
+    <div class="shop">
+        <div class="item1">
+            <img src="img/PEUGEOT 208.webp" width="300px" alt="">
+            <h3>PEUGEOT 308</h3>
+            <p>Price: $10.000</p>
+            <button onclick="addToCart('PEUGEOT 308', 10.000)">Add to Cart</button>
+        </div>
+        <div class="item2">
+            <img src="img/NISSAN ROGUE.webp" width="300px" alt="">
+            <h3>NISSAN ROGUE</h3>
+            <p>Price: $20.000</p>
+            <button onclick="addToCart('NISSAN ROGUE', 20.000)">Add to Cart</button>
+        </div>
+        <div class="item3">
+            <img src="img/PEUGEOT 208 HYBRID.webp" width="300px" alt="">
+            <h3>PEUGEOT 208 HYBRID</h3>
+            <p>Price: $25.000</p>
+            <button onclick="addToCart('PEUGEOT 208 HYBRID', 25.000)">Add to Cart</button>
+        </div>
+        <div class="item4">
+            <img src="img/AUDI A1 ALLSTREET.webp" width="300px" alt="">
+            <h3>AUDI A1 ALLSTREET</h3>
+            <p>Price: $30.000</p>
+            <button onclick="addToCart('AUDI A1 ALLSTREET', 30.000)">Add to Cart</button>
+        </div>
+        <div class="item5">
+            <img src="img/AUDI A1 SPORTBACK.webp" width="300px" alt="">
+            <h3>AUDI A1 SPORTBACK</h3>
+            <p>Price: $20.000</p>
+            <button onclick="addToCart('NISSAN ROGUE', 20.000)">Add to Cart</button>
+        </div>
+        <div class="item6">
+            <img src="img/DACIA DUSTER.webp" width="300px" alt="">
+            <h3>DACIA DUSTER</h3>
+            <p>Price: $27.000</p>
+            <button onclick="addToCart('DACIA DUSTER', 27.000)">Add to Cart</button>
+        </div>
+        <div class="item7">
+            <img src="img/MINI HATCH 5.webp" width="300px" alt="">
+            <h3>MINI HATCH 5</h3>
+            <p>Price: $30.000</p>
+            <button onclick="addToCart('MINI HATCH 5', 30.000)">Add to Cart</button>
+        </div>
+        <div class="item8">
+            <img src="img/RENAULT CLIO V.webp" width="300px" alt="">
+            <h3>RENAULT CLIO V</h3>
+            <p>Price: $15.000</p>
+            <button onclick="addToCart('RENAULT CLIO V', 15.000)">Add to Cart</button>
+        </div>
+        <div class="item9">
+            <img src="img/9c11a482-dfce-4885-91f8-8752748a3193.webp" width="300px" alt="">
+            <h3>ALFA ROMEO STELVIO MY19</h3>
+            <p>Price: $19.000</p>
+            <button onclick="addToCart('ALFA ROMEO STELVIO MY19', 19.000)">Add to Cart</button>
+        </div>
+        <div class="item10">
+            <img src="img/c5a6dcea-ab91-4476-a921-3cf267766ed3.webp" width="300px" alt="">
+            <h3>DACIA SANDERO</h3>
+            <p>Price: $18.000</p>
+            <button onclick="addToCart('DACIA SANDERO', 18.000)">Add to Cart</button>
+        </div>
+        <div class="item11">
+            <img src="img/SKODIA OCTAVIA.webp" width="300px" alt="">
+            <h3>SKODIA OCTAVIA</h3>
+            <p>Price: $22.000</p>
+            <button onclick="addToCart('SKODIA OCTAVIA', 22.000)">Add to Cart</button>
+        </div>
+        <div class="item12">
+            <img src="img/PEUGEOT RIFTER.webp" width="300px" alt="">
+            <h3>PEUGEOT RIFTER</h3>
+            <p>Price: $12.000</p>
+            <button onclick="addToCart('PEUGEOT RIFTER', 12.000)">Add to Cart</button>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
